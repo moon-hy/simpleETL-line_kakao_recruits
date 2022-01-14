@@ -1,8 +1,6 @@
 import requests
 
-
 line_url = 'https://careers.linecorp.com/ko/jobs'
-kakao_url = 'https://careers.kakao.com/jobs'
 
 
 class BaseExtractor:
@@ -22,8 +20,3 @@ class BaseExtractor:
 class LineExtractor(BaseExtractor):
     def __init__(self):
         super(LineExtractor, self).__init__('https://careers.linecorp.com/ko/jobs')
-
-
-class KakaoExtractor(BaseExtractor):
-    def __init__(self):
-        super(KakaoExtractor, self).__init__('https://careers.kakao.com/jobs')
