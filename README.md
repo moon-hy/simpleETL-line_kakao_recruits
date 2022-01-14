@@ -1,3 +1,3 @@
 # simpleETL-line_kakao_recruits
 
-[readme](simple-etl.png)
+![readme](simple-etl.png)
